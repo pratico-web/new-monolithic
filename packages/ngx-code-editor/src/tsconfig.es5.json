@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "es2015",
+    "target": "es5",
+    "baseUrl": ".",
+    "stripInternal": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "outDir": "../build",
+    "rootDir": ".",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "types": [
+    ]
+  },
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true,
+    "flatModuleOutFile": "pratico-ngx-code-editor.js",
+    "flatModuleId": "@pratico/ngx-code-editor"
+  },
+  "include": [
+    "declarations/monaco.d.ts"
+  ],
+  "files": [
+    "./index.ts"
+  ]
+}

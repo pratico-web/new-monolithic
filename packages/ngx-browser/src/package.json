@@ -1,0 +1,29 @@
+{
+  "name": "@pratico/ngx-browser",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pratico-web/ngx-browser"
+  },
+  "author": {
+    "name": "Ábner Oliveira",
+    "email": "abner.silva@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pratico-web/ngx-browser/issues"
+  },
+  "module": "pratico-ngx-browser.js",
+  "typings": "pratico-ngx-browser.d.ts",
+  "dependencies": {
+    "pure-uuid": "1.4.5"
+  },
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}

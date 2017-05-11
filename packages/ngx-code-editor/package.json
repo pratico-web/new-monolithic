@@ -1,0 +1,37 @@
+{
+  "name": "@pratico/ngx-code-editor",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "gulp build",
+    "build:watch": "gulp",
+    "docs": "npm run docs:build",
+    "docs:build": "compodoc -p tsconfig.json -n pratico-ngx-code-editor -d docs --hideGenerator",
+    "docs:serve": "npm run docs:build -- -s",
+    "docs:watch": "npm run docs:build -- -s -w",
+    "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
+    "test": "tsc && karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pratico-web/ngx-code-editor"
+  },
+  "author": {
+    "name": "Ábner Oliveira",
+    "email": "abner.silva@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pratico-web/ngx-code-editor/issues"
+  },
+  "dependencies": {
+    "@pratico/ngx-browser": "0.1.0"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}

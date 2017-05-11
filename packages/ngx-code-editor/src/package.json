@@ -1,0 +1,28 @@
+{
+  "name": "@pratico/ngx-code-editor",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pratico-web/ngx-code-editor"
+  },
+  "author": {
+    "name": "Ábner Oliveira",
+    "email": "abner.silva@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pratico-web/ngx-code-editor/issues"
+  },
+  "module": "pratico-ngx-code-editor.js",
+  "typings": "pratico-ngx-code-editor.d.ts",
+  "peerDependencies": {
+    "@angular/core": "~4.0.0",
+    "@angular/http": "~4.0.0",
+    "monaco-editor": "~0.8.3",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
